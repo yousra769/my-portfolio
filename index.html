@@ -491,15 +491,21 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
         <script>
-			function showMore() {
-    document.getElementById("dots").style.display = "none";
-    document.getElementById("moreText").style.display = "inline";
+     function showMore() {
+    var dots = document.getElementById("dots");
+    var moreText = document.getElementById("moreText");
+    var btn = document.getElementById("learnBtn");
+
+    if (moreText.style.display === "none") {
+        moreText.style.display = "inline";
+        dots.style.display = "none";
+        btn.innerHTML = "Show Less";
+    } else {
+        moreText.style.display = "none";
+        dots.style.display = "inline";
+        btn.innerHTML = "Learn More";
+    }
 }
-
-
-
-
-
-		</script>
+</script>
     </body>
 </html>

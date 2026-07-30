@@ -96,8 +96,8 @@ input, select, textarea {
 		}
 
 	body, input, select, textarea {
-		color: #272526;
-		font-family: "Courier New",monospace;
+		color: #121111;
+		font-family:;
 		font-size: 16pt;
 		font-weight: 400;
 		line-height: 1.75em;
@@ -115,7 +115,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #2699b3 !important;
+			color: #050606 !important;
 			text-decoration: none;
 		}
 
@@ -1815,7 +1815,7 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: #0a0db1;
+		background: #efecef;
 		border-radius: 0.35em;
 		border: solid 2px transparent;
 		color: inherit;
